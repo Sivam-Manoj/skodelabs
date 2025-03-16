@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         <meta name="twitter:image" content="/images/hero-image.jpg" />
       </Head>
 
-      <section className="relative w-full top-11 min-h-screen bg-gradient-to-r from-indigo-600 to-blue-800 flex items-center justify-center px-6">
+      <section className="relative w-full  pt-[7rem] min-h-screen bg-gradient-to-r from-indigo-600 to-blue-800 flex items-center justify-center px-6">
         {/* Background Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-900 opacity-50"></div>
 
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
           {/* Call-to-Action Button */}
           <a
             href="#about"
-            className="inline-block bg-yellow-500 text-gray-900 font-semibold text-lg px-6 py-3 rounded-full shadow-xl hover:bg-yellow-400 transition-transform transform hover:scale-105"
+            className="inline-block bg-yellow-500 text-gray-900 font-semibold text-lg px-6 py-3 rounded-full shadow-xl hover:bg-yellow-400 transition-transform transform hover:scale-105 mb-11"
           >
             Get Started
           </a>
