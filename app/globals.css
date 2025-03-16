@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Smooth scrolling */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px; /* Thin scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background for the track */
+  border-radius: 10px; /* Rounded track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4caf50; /* Green thumb */
+  border-radius: 10px; /* Rounded thumb */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #45a049; /* Darker green on hover */
+}
+
+/* Optional: Custom Scrollbar for Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #4caf50 #f1f1f1; /* Green thumb and light gray track */
+}
+
+/* Smooth Scroll for Better Experience */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Text Shadow */
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Text Outline (white outline) */
+.text-outline-white {
+  -webkit-text-stroke: 1px white; /* For webkit browsers (Chrome, Safari) */
+  color: transparent; /* Make text color transparent so outline is visible */
+}
