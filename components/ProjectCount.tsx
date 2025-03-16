@@ -44,7 +44,7 @@ const Counter = ({
 
 const ProjectCount = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-8 bg-gray-100/50 rounded-lg shadow-md w-full  mx-auto">
+    <div className="flex flex-wrap text-center justify-center gap-6 p-8 bg-gray-100/50 rounded-lg shadow-md w-full  mx-auto">
       {/* Projects Completed */}
       <div className="flex flex-col items-center w-40 sm:w-48 md:w-56 p-4 bg-white rounded-lg shadow">
         <FaProjectDiagram className="text-5xl text-blue-600 mb-2" />
